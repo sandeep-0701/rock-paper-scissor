@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Manrope:wght@200;800&family=Maven+Pro:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow: hidden; */
+    height: 100vh;
+    color: #61dafb;
+    font-family: 'Maven Pro', sans-serif;
+    background: #20232a ;
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.navBar{
+    font-size: xx-large;
+    font-weight: 666;
+    display: flex;
+    text-align: center;
+    background:#16181d ;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0.1rem 15px #418699;
+}
+
+.scoreBoard{
+    margin-top: 0.8rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scoreBoard{
+    font-weight: 300;
+}
+.hidden{
+    visibility: hidden;
+}
+.startButton{
+    /* visibility: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.startButton .start-btn{
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    transition-property: margin-right;
+    transition: all 0.3s ease-out;
+}
+
+.startButton .start-btn:hover{
+    color: #204854;
+    text-decoration: underline;
+    width: 10%;
+    box-shadow: 0px 0px 38px 16px rgba(89,206,222,0.71);
+    
+}
+.gameBoard{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameBoard .title-winner{
+    height: 3rem;
+}
+
+.gameControl{
+    background: #16181d;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    box-shadow: 0px 0px 17px 0px rgba(66,66,66,1);
+}
+
+.gameControl .images{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.images .image{
+    font-weight: bolder;
+    font-size: 60px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.gameControl .control-btns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+
+.gameControl .control-btns button{
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    border-radius: 10px;
+    width: 13%;
+    height: 8%;
+    padding: 10px;
+    text-align: center;
+    background: #61dafb;
+    transition: all 1s ease-out;
+}
+
+.gameControl .control-btns button:hover{
+    background: #4792a7;
+    box-shadow: 0px 0px 15px 8px rgba(89,206,222,0.71);
+}
+
+
